@@ -2,7 +2,8 @@
 对象引擎，以路径形式访问对象属性,例data.Product[1].Name
 用例：
 ### 用例
- Product product = new Product() { Url = "http://www.baidu.com", CreateTime = DateTime.Now };
+
+            Product product = new Product() { Url = "http://www.baidu.com", CreateTime = DateTime.Now };
             List<Product> productList = new List<Product>();
             for (int i = 0; i < 15100; i++)
             {
